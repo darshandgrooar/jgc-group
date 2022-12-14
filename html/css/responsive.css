@@ -1,0 +1,262 @@
+/* css only for hover effect all hover effect must write in this Media query */
+
+@media only screen and (max-width: 1920px) {
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+
+}
+
+
+@media only screen and (max-width: 1660px) {
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 1599px) {
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1366px) {
+
+
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+
+
+}
+
+
+
+ 
+
+
+
+/* common css for below screen 1199 */
+
+
+
+@media only screen and (max-width: 1199px) {
+
+html{font-size: 8px;}
+p{font-size: 16px;}
+.btn{font-size: 14px;padding: 26px 20px;min-width: 160px;}
+
+.commonSec{padding-top: 50px;padding-bottom: 50px;}
+
+
+/*---cms-Con---*/
+.cmsCon h1{font-size: 40px;margin-bottom: 20px;}
+.cmsCon h2{font-size: 34px;margin-bottom: 20px;}
+.cmsCon h3{font-size: 30px;margin-bottom: 20px;}
+.cmsCon h4{font-size: 26px;margin-bottom: 20px;}
+.cmsCon h5{font-size: 22px;margin-bottom: 20px;}
+.cmsCon h6{font-size: 18px;margin-bottom: 20px;}
+.cmsCon .aligncenter{margin: 30px auto 30px auto;}
+.cmsCon .mb-70{margin-bottom: 50px;}
+.cmsCon hr{height: 10px;margin: 30px 0;}
+.cmsCon .aligncenter.mb-100{margin-bottom: 50px;}
+/*---cms-Con---*/
+
+/*---404 Page---*/
+.errorTitle{font-size: 150px;}
+.errorSubTitle{font-size: 34px;}
+.errorCon p{margin-bottom: 28px;}
+/*---404 Page---*/
+
+
+}
+
+
+
+
+
+/* common css for below screen 991 */
+
+
+
+@media only screen and (max-width: 991px) {
+
+
+}
+
+
+
+/* common css for below screen 767 */
+
+
+
+@media only screen and (max-width: 767px) {
+
+html{font-size: 6px;}	
+p{font-size: 14px;margin-bottom: 15px;}
+.container{max-width: 100%;}
+.btn{font-size: 14px;padding: 21px 15px; font-weight: 700;min-width: 150px;}
+.commonSec{padding-top: 30px;padding-bottom: 30px;}
+
+/*---cmsCon---*/
+.cmsCon p{font-size: 14px;margin-bottom: 15px;}
+.cmsCon p b{font-size: 14px;}
+.cmsCon ul li{font-size: 14px;padding-left: 18px;}
+.cmsCon ol li{font-size: 14px;}
+.cmsCon ul li:before{width: 8px;height: 8px;top: 5px;}
+.cmsCon ul li ul li{padding-left: 14px;}
+.cmsCon ul li ul li:before{width: 6px;height: 2px;top: 8px;}
+.cmsCon h1{font-size: 34px;margin-bottom: 20px;}
+.cmsCon h2{font-size: 30px;margin-bottom: 20px;}
+.cmsCon h3{font-size: 26px;margin-bottom: 20px;}
+.cmsCon h4{font-size: 24px;margin-bottom: 20px;}
+.cmsCon h5{font-size: 20px;margin-bottom: 20px;}
+.cmsCon h6{font-size: 16px;margin-bottom: 20px;}
+.cmsCon .aligncenter{margin: 25px auto 25px auto;}
+.cmsCon .mb-70{margin-bottom: 30px;}
+.cmsCon hr{height: 6px;margin: 25px 0;}
+.cmsCon .aligncenter.mb-100{margin-bottom: 30px;}
+/*---cmsCon---*/
+
+/*---404 Page---*/
+.errorTitle{font-size: 120px;}
+.errorSubTitle{font-size: 28px;}
+.errorCon p{margin-bottom: 24px;}
+/*---404 Page---*/
+
+/*---thank-you---*/
+.thankyou .thanktitle {font-size: 40px;}
+.thankyou p {font-size: 16px;margin-bottom: 20px;max-width: 100%;}
+.thankyou img {max-width: 70px;margin-bottom: 10px;}
+/*---thank-you---*/
+
+}
+
+
+
+
+
+@media only screen and (max-width: 568px) {
+
+.commonSec{padding-top: 30px;padding-bottom: 30px;}
+
+}
+
+
+
+/* common css for below screen 479 */
+
+
+
+@media only screen and (max-width: 479px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 350px) {
+
+}
+
+
+/* common css for screen size between 480 to 767 */
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+
+
+/* common css for screen size between 568 to 767 */
+
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+
+}
+
+@media only screen and (min-width: 567px) and (max-width: 767px) {
+
+
+}
+
+
+
+
+
+/* common css for screen size between 600 to 767 */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+
+
+	
+
+}
+
+
+
+/* common css for screen size between 768 to 1199 */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+
+}
+
+
+
+
+
+/* common css for screen size between 768 to 1023 */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+
+/* common css for screen size between 1024 to 1199 */
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+
+
+}

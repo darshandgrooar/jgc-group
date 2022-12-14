@@ -1,0 +1,182 @@
+
+
+*{padding:0; margin:0; border:none; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+strong, b{font-weight:bold}
+em, i{font-style:italic;}
+u{text-decoration:underline}
+a{text-decoration: none;}
+*:focus{outline: none;}
+a:hover, a:focus {text-decoration: none; outline: none !important;}
+button[type="button"]:focus{outline: none;}
+
+/* 1.1 SVG default css*/
+svg:not(:root).svgImg { overflow: visible }
+.svgImg { display: inline-block; font-size: inherit; width:1em; height: 1em; overflow: visible; vertical-align: -.125em; }
+.svg-icons { display: inline-block; font-size: inherit; height: 1em; overflow: visible; vertical-align: -.125em }
+/*SVG default css*/
+img{display: block; max-width:100%; max-height:100%; width:auto; height:auto}
+p{line-height:1.2;font-size: 16px; color:#676767;font-weight:500;margin-bottom:22px;}
+p:last-child{margin-bottom:0;}
+a{color: #32bdae;transition: all 0.4s ease-in-out;}
+a:hover{color: #000;}
+
+.c-scrollbar{height: 100vh !important;}
+
+.ffp{font-family: 'Poppins', sans-serif;}
+.bg-primary{background: #96b885}
+.bg-dark{background: #000;}
+
+html{font-size: 10px;}
+body{display:block; width:100%; padding:0; margin:0; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight:400; line-height:1.4; color: #1d1d1d; background-color:#fff; position: relative;}
+.trans{-moz-transition:all 0.4s ease-in-out; -ms-transition:all 0.4s ease-in-out; -webkit-transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
+.wrapper{display:block; width:100%; overflow:hidden; min-height: 100vh; position: relative;}
+
+.container{max-width: 1340px;padding: 0 15px;}
+
+/*  Slick slider */
+
+.slick-slide{outline: none;}
+.slick-dots{display: block; text-align: center; margin-top: 25px;}
+.slick-dots li{ display: inline-block; width:auto; list-style: none; padding: 0 7px;}
+.slick-dots li button{border-radius: 50%;width: 14px;height: 14px;background: rgba(0, 0, 0, 0.1);font-size:0; -moz-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out; cursor: pointer; outline: none;
+position: relative; transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;}
+.slick-dots li.slick-active button, .slick-dots li button:hover{background: #0070CC;}
+.slick-prev{background: transparent;width: 25px;height:25px;border-radius:50%;position: absolute;left: 0px;top:50%;margin-top:0px;z-index:999;font-size:0;border:0px;outline-color: transparent;
+overflow: hidden; transition: all 0.4s ease-in-out;}
+.slick-prev:before{width: auto;height: auto;border:0; font-family: "jgc-group" !important;font-size: 25px;line-height: 25px;transform: rotate(180deg);
+left: inherit;right: 0;top: 0;bottom: 0;margin: auto; transition: color 0.4s ease-in-out;content: "\65";position: absolute;color: #000;}
+.slick-next{background:transparent; width:25px; height:25px; border-radius:50%; position: absolute; right:0px; top:50%; margin-top:0px; z-index:999; font-size:0; border:0px; outline-color: transparent;
+overflow: hidden; transition: all 0.4s ease-in-out;}
+.slick-next:before{width: auto;height: auto;border:0; font-family: "jgc-group" !important;font-size: 25px;line-height: 25px;
+left: 0;right: inherit;top: 0;bottom: 0;margin: auto; transition: color 0.4s ease-in-out;content: "\65";position: absolute;
+color: #000;}
+.slick-prev:hover:before, .slick-next:hover:before{color: #32bdae;}
+.slick-dots li.slick-active button {background: #0070CC;width: 10px;height: 10px;}
+.slick-dots li.slick-active button:before {content: '';border-radius: 50%;position: absolute;left: -3px;top: -3px;width: 16px;height: 16px;
+border: 1px solid #DBCCB0;transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;}
+.slick-dots li.slick-active button:before {border-color: #0070CC;}
+
+/* Slick slider End */
+
+
+/* Buttons */
+
+.btn{display: inline-block; vertical-align: middle; font-size: 15px; font-weight: 700; color: #fff; background: #32bdae; border-radius: 41px; padding: 32px 20px; position: relative; overflow: hidden;
+letter-spacing: 0; min-width: 195px; line-height: 1;border:0;z-index: 2; text-transform: uppercase;border: 1px solid #32bdae;
+transition: all 0.4s ease-in-out !important;}
+.btn:hover{color: #fff;background: #000; transform: translateY(-3px);box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);border-color: transparent;}
+.btn.btn-outline{border: 3px solid #bcbcbc;background: transparent;color: #000;}
+.btn.btn-outline:hover{border-color: transparent;background: #32bdae;color: #fff;}
+.btn.btn-white-outline{border: 3px solid #fff;background: transparent;color: #000;}
+.btn.btn-white-outline:hover{border-color: transparent;background: #32bdae;color: #fff;}
+.btn .icon{display: inline-block;vertical-align: middle;font-size: 14px;line-height: 0;}
+.btn.btn-sm{padding: 26px 50px}
+.btn ~ .btn{margin-left: 12px;}
+.btn-check:focus+.btn, .btn:focus{box-shadow: none;}
+.btn span{position: relative;padding-left: 24px;}
+.btn span i{position: absolute;top: 4px;left: 0;}
+
+.btn.btn-black{background: #000;border: transparent;}
+.btn.btn-black:hover{background: #32bdae;border: transparent;}
+
+.commonSec{padding: 120px 0;}
+.secHead{display: block;margin-bottom: 75px;}
+.secTitle{font-size: 121px;font-weight: 500;text-transform: uppercase; line-height: 0.98;color: #000;margin-bottom: 30px;}
+.secTitle span{font-weight: 900;}
+.secHead b{color: #000;}
+
+
+/*---home---*/
+.banner-video{display: block;line-height: 0;}
+
+/*---home---*/
+
+
+/*---cms-Con---*/
+.cmsCon{display:block;width:100%;color:#000;text-transform: capitalize;}
+.cmsCon p{display:block;margin-bottom:20px;color:#000;line-height:1.3;font-weight:400;font-size:16px;}
+.cmsCon p a{text-transform:initial}
+.cmsCon ul{list-style:none;font-size:0;margin-bottom:30px}
+.cmsCon ul li{display:block;width:100%;font-size:16px;font-weight:400;line-height:1.3;color:#000;margin-bottom:15px;padding-left:20px;position:relative}
+.cmsCon ul li:before{content:'';width:10px;height:10px;border-radius:50%;position:absolute;left:0;top:6px;background:#000;}
+.cmsCon ul li:last-child{margin-bottom:0}
+.cmsCon ul li ul li{padding-left:16px}
+.cmsCon ul li ul li:before{width:.8rem;height:2px;border-radius:0;top:10px}
+.cmsCon h1{font-size:50px;line-height:1.3;font-weight:700;color:#000;display:block;margin-bottom:30px;padding-top:0;text-transform:capitalize;}
+.cmsCon h2{font-size:40px;line-height:1.3;font-weight:700;color:#000;display:block;margin-bottom:30px;padding-top:0;text-transform:capitalize;}
+.cmsCon h3{font-size:35px;line-height:1.3;font-weight:700;color:#000;display:block;margin-bottom:30px;padding-top:0;text-transform:capitalize;}
+.cmsCon h4{font-size:30px;line-height:1.3;font-weight:700;color:#000;display:block;margin-bottom:30px;padding-top:0;text-transform:capitalize;}
+.cmsCon h5{font-size:25px;line-height:1.3;font-weight:700;color:#000;display:block;margin-bottom:30px;padding-top:0;text-transform:capitalize;}
+.cmsCon h6{font-size:20px;line-height:1.3;font-weight:700;color:#000;display:block;margin-bottom:30px;padding-top:0;text-transform:capitalize;}
+.cmsCon iframe{width:100%;height:500px}
+.cmsCon .alignleft{float:left;width:auto;max-width:50%;margin:0 30px 30px 0}
+.cmsCon .alignright{float:right;width:auto;max-width:50%;margin:0 0 30px 30px}
+.cmsCon .aligncenter{width:auto;max-width:100%;margin:68px auto 66px;text-align:center}
+.cmsCon .aligncenter.mb-100{margin-bottom:100px}
+.cmsCon .mb-70{margin-bottom:70px}
+.cmsCon .aligncenter img{margin:auto}
+.cmsCon hr{background:#ccc;height:17px;opacity:1;margin:55px 0}
+.cmsCon ol{padding:0;display:inline-block;counter-reset:cmscon-counter;list-style-type:none}
+.cmsCon ol li{position:relative;font-size:16px;font-weight:400;line-height:1.3;color:#000;list-style:none;margin-bottom:15px;padding-left:0}
+.cmsCon ol li:before{counter-increment:cmscon-counter;content:"" counter(cmscon-counter) ".";line-height:1.3}
+.cmsCon ol li ul{margin-top:30px}
+.cmsCon ol li ul li{padding-left:24px;position:relative}
+.cmsCon ol li ul li:before{counter-increment:none;content:no-close-quote}
+.cmsCon ul.half li{width:50%;display:inline-block}
+.cmsCon p b{margin-bottom:0;display:inline;font-size:16px;margin-bottom:15px;display:inline-block;margin-bottom:0}
+.cmsCon a{transition:color .4s ease-in-out;color:#32bdae}
+.cmsCon a:hover{color:#000;}
+.cmsCon p a{transition:color .4s ease-in-out;color:#32bdae;font-weight:500}
+.cmsCon p a:hover{color:#000;}
+.cmsCon p a.btn:hover{color:#000;}
+/*---cms-Con---*/
+
+/*---404 Page---*/
+.errorCon{text-align: center; max-width: 450px;margin: auto;}
+.errorTitle{font-size: 185px;font-weight: 900;line-height: 1;color: #fff;font-family: 'Gotham', sans-serif;
+margin-bottom: 30px;background: #000;padding: 5px 15px;display: inline-block;}
+.errorSubTitle{font-size: 40px;line-height: 1;color: #000;font-weight: 700;padding-bottom: 12px;}
+.errorImg {margin: auto; max-width: 270px;max-height: 325px;}
+.errorImg img{height: 100%;width: 100%;object-fit: cover;}
+.errorCon p{margin-bottom: 32px;}
+/*---404 Page---*/
+
+/*---thank-you---*/
+.thankyou {text-align: center}
+.thankyou img {margin: auto;max-width: 140px;margin-bottom: 20px;}
+.thankyou .thanktitle {font-size: 100px;color: #000;line-height: 1.4;font-weight: 800;}
+.thankyou p {font-size: 21px;line-height: 1.4;font-weight: 400; color: #000;text-align: center; max-width: 50%;margin: auto;margin-bottom: 40px;opacity: 0.5;}
+/*---thank-you---*/
+
+
+
+
