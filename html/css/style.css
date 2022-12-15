@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 *{padding:0; margin:0; border:none; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
 html, body, div, span, applet, object, iframe,
@@ -46,17 +46,17 @@ svg:not(:root).svgImg { overflow: visible }
 img{display: block; max-width:100%; max-height:100%; width:auto; height:auto}
 p{line-height:1.2;font-size: 16px; color:#676767;font-weight:500;margin-bottom:22px;}
 p:last-child{margin-bottom:0;}
-a{color: #32bdae;transition: all 0.4s ease-in-out;}
+a{color: #0E171F;transition: all 0.4s ease-in-out;}
 a:hover{color: #000;}
 
 .c-scrollbar{height: 100vh !important;}
 
-.ffp{font-family: 'Poppins', sans-serif;}
+.ffm{font-family: 'Montserrat', sans-serif;}
 .bg-primary{background: #96b885}
 .bg-dark{background: #000;}
 
 html{font-size: 10px;}
-body{display:block; width:100%; padding:0; margin:0; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight:400; line-height:1.4; color: #1d1d1d; background-color:#fff; position: relative;}
+body{display:block; width:100%; padding:0; margin:0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight:400; line-height:1.4; color: #1d1d1d; background-color:#fff; position: relative;}
 .trans{-moz-transition:all 0.4s ease-in-out; -ms-transition:all 0.4s ease-in-out; -webkit-transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
 .wrapper{display:block; width:100%; overflow:hidden; min-height: 100vh; position: relative;}
 
@@ -66,10 +66,10 @@ body{display:block; width:100%; padding:0; margin:0; font-family: 'Poppins', san
 
 .slick-slide{outline: none;}
 .slick-dots{display: block; text-align: center; margin-top: 25px;}
-.slick-dots li{ display: inline-block; width:auto; list-style: none; padding: 0 7px;}
-.slick-dots li button{border-radius: 50%;width: 14px;height: 14px;background: rgba(0, 0, 0, 0.1);font-size:0; -moz-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out; cursor: pointer; outline: none;
+.slick-dots li{ display: inline-block; width:auto; list-style: none; padding: 0 3px;}
+.slick-dots li button{border-radius: 0;width: 12px;height: 12px;background: transparent;border:1px solid #fff; font-size:0; -moz-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out; cursor: pointer; outline: none;
 position: relative; transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;}
-.slick-dots li.slick-active button, .slick-dots li button:hover{background: #0070CC;}
+.slick-dots li.slick-active button, .slick-dots li button:hover{background: #fff;}
 .slick-prev{background: transparent;width: 25px;height:25px;border-radius:50%;position: absolute;left: 0px;top:50%;margin-top:0px;z-index:999;font-size:0;border:0px;outline-color: transparent;
 overflow: hidden; transition: all 0.4s ease-in-out;}
 .slick-prev:before{width: auto;height: auto;border:0; font-family: "jgc-group" !important;font-size: 25px;line-height: 25px;transform: rotate(180deg);
@@ -79,25 +79,23 @@ overflow: hidden; transition: all 0.4s ease-in-out;}
 .slick-next:before{width: auto;height: auto;border:0; font-family: "jgc-group" !important;font-size: 25px;line-height: 25px;
 left: 0;right: inherit;top: 0;bottom: 0;margin: auto; transition: color 0.4s ease-in-out;content: "\65";position: absolute;
 color: #000;}
-.slick-prev:hover:before, .slick-next:hover:before{color: #32bdae;}
-.slick-dots li.slick-active button {background: #0070CC;width: 10px;height: 10px;}
-.slick-dots li.slick-active button:before {content: '';border-radius: 50%;position: absolute;left: -3px;top: -3px;width: 16px;height: 16px;
-border: 1px solid #DBCCB0;transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;}
-.slick-dots li.slick-active button:before {border-color: #0070CC;}
+.slick-prev:hover:before, .slick-next:hover:before{color: #fff;}
+.slick-dots li.slick-active button {background: #fff;}
+
 
 /* Slick slider End */
 
 
 /* Buttons */
 
-.btn{display: inline-block; vertical-align: middle; font-size: 15px; font-weight: 700; color: #fff; background: #32bdae; border-radius: 41px; padding: 32px 20px; position: relative; overflow: hidden;
-letter-spacing: 0; min-width: 195px; line-height: 1;border:0;z-index: 2; text-transform: uppercase;border: 1px solid #32bdae;
+.btn{display: inline-block; vertical-align: middle; font-size: 15px; font-weight: 700; color: #fff; background: #0E171F; border-radius: 41px; padding: 32px 20px; position: relative; overflow: hidden;
+letter-spacing: 0; min-width: 195px; line-height: 1;border:0;z-index: 2; text-transform: uppercase;border: 1px solid #0E171F;
 transition: all 0.4s ease-in-out !important;}
 .btn:hover{color: #fff;background: #000; transform: translateY(-3px);box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);border-color: transparent;}
 .btn.btn-outline{border: 3px solid #bcbcbc;background: transparent;color: #000;}
-.btn.btn-outline:hover{border-color: transparent;background: #32bdae;color: #fff;}
+.btn.btn-outline:hover{border-color: transparent;background: #0E171F;color: #fff;}
 .btn.btn-white-outline{border: 3px solid #fff;background: transparent;color: #000;}
-.btn.btn-white-outline:hover{border-color: transparent;background: #32bdae;color: #fff;}
+.btn.btn-white-outline:hover{border-color: transparent;background: #0E171F;color: #fff;}
 .btn .icon{display: inline-block;vertical-align: middle;font-size: 14px;line-height: 0;}
 .btn.btn-sm{padding: 26px 50px}
 .btn ~ .btn{margin-left: 12px;}
@@ -106,7 +104,7 @@ transition: all 0.4s ease-in-out !important;}
 .btn span i{position: absolute;top: 4px;left: 0;}
 
 .btn.btn-black{background: #000;border: transparent;}
-.btn.btn-black:hover{background: #32bdae;border: transparent;}
+.btn.btn-black:hover{background: #0E171F;border: transparent;}
 
 .commonSec{padding: 120px 0;}
 .secHead{display: block;margin-bottom: 75px;}
@@ -114,9 +112,21 @@ transition: all 0.4s ease-in-out !important;}
 .secTitle span{font-weight: 900;}
 .secHead b{color: #000;}
 
+/*---header---*/
+.header-main{background: transparent;position: relative;z-index: 3;}
+.site-logo img{max-width: 102px;margin: auto;}
+
+/*---header---*/
 
 /*---home---*/
-.banner-video{display: block;line-height: 0;}
+.banner-sec{position: absolute;top:0;left: 0;right: 0; z-index: 2;}
+.banner-video-main{line-height: 0;display: block;}
+.banner-sec:before{position: absolute;content: ""; width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;background: linear-gradient(180deg, #000000 48.93%, rgba(0, 0, 0, 0) 69.75%);
+opacity: 0.3;z-index: 3;}
+.banner-video{position: relative;width: 100%;display: block;line-height: 0;padding-bottom: 100vh;z-index: 2;}
+.banner-video video{position: absolute;width: 100%;height: 100%;max-width: 100%;max-height: 100%;top: 0;bottom: 0;left: 0;right: 0;margin: auto; object-fit: cover;
+object-position: center top;}
+.banner-video-slide .slick-dots{position: absolute;width: 100%;margin-top: 0;left: 0;right: 0;bottom: 53px;margin: auto;z-index: 3;}
 
 /*---home---*/
 
@@ -153,9 +163,9 @@ transition: all 0.4s ease-in-out !important;}
 .cmsCon ol li ul li:before{counter-increment:none;content:no-close-quote}
 .cmsCon ul.half li{width:50%;display:inline-block}
 .cmsCon p b{margin-bottom:0;display:inline;font-size:16px;margin-bottom:15px;display:inline-block;margin-bottom:0}
-.cmsCon a{transition:color .4s ease-in-out;color:#32bdae}
+.cmsCon a{transition:color .4s ease-in-out;color:#0E171F}
 .cmsCon a:hover{color:#000;}
-.cmsCon p a{transition:color .4s ease-in-out;color:#32bdae;font-weight:500}
+.cmsCon p a{transition:color .4s ease-in-out;color:#0E171F;font-weight:500}
 .cmsCon p a:hover{color:#000;}
 .cmsCon p a.btn:hover{color:#000;}
 /*---cms-Con---*/
