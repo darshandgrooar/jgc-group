@@ -1,0 +1,400 @@
+/*---------- footer ----------*/
+.footerMain {background: #151515;}
+.footerInner {display: flex;}
+.footerLeft{border-right: 1px solid #272727; padding: 85px 0; width: 40%;}
+.footerMain .footBox{display: block;width: 100%;}
+.footTitle{font-size:18px; line-height: 20px;font-weight: 600;color: #ffffff;display: block;margin-bottom: 28px;}
+.footerMain .footBox .footCon ul{padding: 0;margin: 0;font-size: 0;}
+.footerMain .footBox .footCon ul li{display: block; position: relative; line-height: 20px; margin-bottom:6px;}
+.footerMain .footBox .footCon ul li a{display:inline;transition: all 0.4s ease-in-out;font-size: 15px; font-weight:400;position: relative;
+color: #999999;}
+.footerMain .footBox .footCon ul li.active a{color: #ffffff;}
+.footerMain .footBox .footCon ul li a:hover{color: #ffffff;}
+
+.socialMeadia{display: inline-block;vertical-align: middle;font-size: 0;}
+.socialMeadia a{display: inline-block; width:32px; height:32px; border-radius: 50%; position: relative; text-align: center; font-size:18px; color: #000000;
+    transition: border 0.4s ease-in-out, background 0.4s ease-in-out, color 0.4s ease-in-out;margin-right:19px;background: #ffffff; font-weight: 400; overflow:hidden;
+}
+.socialMeadia a:last-child{margin-right: 0;}
+.socialMeadia a .icon{text-align: center;position: absolute;left:0;right: 0;top:0;bottom: 0;margin: auto;
+    transition: border 0.4s ease-in-out, background 0.4s ease-in-out, color 0.4s ease-in-out; line-height: 2.2;}
+.socialMeadia a:hover{border-color: transparent;}
+.socialMeadia a:hover .icon{color: #fff;}
+.socialMeadia .fb:hover{background: #3b5998;}
+.socialMeadia .twitter:hover{background: #1DA1F2;}
+.socialMeadia .linkedin:hover{background: #2867b2;}
+.socialMeadia .instagram:hover{background: #c13584;}
+.socialMeadia .youtube:hover{background: #FF0000;}
+
+.footerRight {width: 60%; padding-top: 54px;}
+
+.our_certi {display: flex; align-items: center; padding:0px 28px 50px; position: relative;}
+.our_certi:before {content: ''; position: absolute; left:0; bottom: 0; background: #272727; height:1px; width: 200%;}
+.our_certi .footTitle{margin-bottom:0;}
+.our_certi img{display: inline-block; margin-left: 60px; vertical-align: middle;}
+
+.foot_contactDetails {padding:50px 0px 30px 28px;}
+
+.footContact{position: relative; color: #999999; line-height: 22px; font-size: 15px; font-weight: 400; margin-bottom:12px;
+display: inline-block; padding-left: 28px; vertical-align: top; margin-left: 45px;}
+.footContact .icon{position: absolute;left: 0;top:0px;font-size:19px;color: #ffffff;}
+
+.footContact a {color: #999999;transition: all 0.4s ease-in-out;}
+.footContact a:hover {color: #ffffff;}
+
+.footContact:first-child{margin-left:0;}
+
+.footerMain .footBox.follow_mbl{display: none;}
+
+.copyrightsec{padding: 15px 0;width: 100%;position: relative;text-align: center; border-top: 1px solid #272727;}
+.copyrightsec .copyright{font-size: 14px;line-height: normal;font-weight: normal;color: #ffffff;text-align: center;margin: 0;display: inline-block; float: left; margin-top: 10px;}
+.copyrightsec .copyright a{color: #ffffff;transition: all 0.4s ease-in-out;}
+.copyrightsec .copyright a:hover{text-decoration: underline;}
+.copyrightsec .powerdBy{font-size:14px;line-height: normal;font-weight: normal;color: #ffffff; text-align: center;margin: 0;display: inline-block; float: right;}
+.copyrightsec .powerdBy a{display: inline-block;vertical-align: middle;width: 42px;}
+.copyrightsec .powerdBy img{width: 100%;}
+/*---------- footer ----------*/
+
+
+/*---------- News ----------*/
+.morelink{font-size: 16px;line-height: 1;font-weight: 400;color: #000000;display: inline-block;transition: all 0.4s ease-in-out;}
+.morelink .icon{margin-left: 5px;display: inline-block;vertical-align: middle;position: relative;top:1px;}
+.morelink:hover{color: #0B1018;}
+.morelink:hover .icon{-webkit-animation: linear infinite;-webkit-animation-name: run;-webkit-animation-duration: 1s;}
+.newsSec{padding-bottom: 80px; position: relative;}
+.newsSec:before{content: ''; position: absolute; left:-290px; top:90px; width: 590px; height:590px; background: url(../img/blog-bg.svg) no-repeat; background-size: 100%;}
+.newsInner {padding: 0 110px;}
+.newsSec .sec-head{display:flex;align-items:center;position:relative; margin-bottom:50px;}
+.newsSec .sec-head .sec-title{margin-bottom: 0;}
+.newsSec .sec-head .morelink{position:absolute;right:22px; top: 20px;}
+.newsSec .newsCard{background-color:#fff;transition:.4s all ease-in-out;margin:0 12px 50px;}
+.News .newsCard{margin:0 5px 20px;}
+/*.newsSec .newsCard:hover{box-shadow:0 22px 30px rgba(0,0,0,.05);cursor:pointer}*/
+.newsCard:hover .newsCardImg img{-webkit-transform: scale(1.2);-ms-transform: scale(1.2);-moz-transform: scale(1.2);transform: scale(1.2);-o-transform: scale(1.2);-webkit-transition-duration: 2s;transition-duration: 2s;}
+.newsSec .newsCard .newsCardImg{position: relative;display: block;width: 100%;padding-bottom:280px; overflow: hidden;}
+.newsSec .newsCard .newsCardImg img{position: absolute; max-width: 100%;max-height: 100%; height: 100%;width: 100%;top: 0;left: 0;right: 0;object-fit: cover;object-position: center; -webkit-transition-duration: 2s;-moz-transition-duration: 2s;-ms-transition-duration: 2s;transition-duration: 2s;}
+.newsSec .newsCard .newsCardContent{padding:0px;}
+.newsSec .newsCard .newsTitle{padding:24px 20px 20px 0;}
+.newsSec .newsCard .newsTitle a{font-size:20px;line-height:1.3;color:#000;font-weight:300;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;letter-spacing: 0;}
+.newsSec .newsCard:hover .morelink{color:#426ba9;}
+.newsSec .newsCard:hover .newsTitle a{color:#426ba9;}
+
+@-webkit-keyframes run {
+    0% {
+        left: 0
+    }
+    50% {
+        left: 7px
+    }
+    100% {
+        left: 0
+    }
+}
+
+.newsSlider .slick-dots {margin-top: 10px;}
+.newsSlider .slick-dots li button {border-color: #000000;}
+.newsSlider .slick-dots li.slick-active button, .newsSlider .slick-dots li button:hover{background: #000;}
+.newsSlider .slick-dots li.slick-active button {background: #000;}
+
+/*---------- News ----------*/
+
+
+/*---------- More question ----------*/
+.moreSec{background: #ededed; padding: 88px 0;}
+.more_question_con {max-width: 566px;}
+.more_head {border-bottom: 1px solid #000000; padding-bottom: 24px;}
+.more_head .sec-head{margin-bottom:10px;}
+.more_head .sec-head .sec-title{margin-bottom:0;}
+
+.moreDesc {font-size: 20px; color: #000000;}
+
+.call_sl {display: flex; align-items: center; margin-top: 28px;}
+.call_icon {position: relative; margin-right: 14px; width: 62px; height: 62px; background: #0e1720; color: #ffffff; font-size: 30px; border-radius: 100%;}
+.call_icon .icon {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin-top: 5px;}
+.call_sl span {font-size: 46px; font-weight: 700; color: #0E171F; line-height: 1;}
+
+.whatsup_call_sl {display: inline-flex; align-items: center; margin-top:18px; background: #ffffff; border-radius: 40px; padding:3px; padding-right: 28px;}
+.whatsup_call_icon {position: relative; margin-right: 14px; width: 62px; height: 62px; background: #35bf48; color: #ffffff; font-size: 30px; border-radius: 100%;}
+.whatsup_call_icon .icon {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin-top: 5px;}
+.whatsup_call_sl span {font-size: 18px; font-weight: 700; color: #0E171F; line-height: 1;}
+
+.conformrow{margin:0 -8px}
+.conformrow .conformcol{padding:0 8px}
+.conformrow .conformcol .formcol{margin-bottom:20px}
+.map_inner iframe{width:100%;height:800px}
+.inputformField{width:100%;border:0; border-radius: 50px; height: 63px; outline:0;padding:14px 28px; margin: 0; font-size:18px;resize:none;color:#0b1018;font-weight:400; transition: all 0.4s ease-in-out}
+.inputformField::placeholder{color:rgba(0, 0, 0, 0.3);}
+/*select{width:100%;border:1px solid #adadad;outline:0;padding:14px 20px;font-size:15px;font-weight:500;resize:none;color:#000;background:#fff url(../img/svg/down-arrow.svg) no-repeat right 20px center;appearance:none;-webkit-appearance:none;-moz-appearance:none;background-size:10px}*/
+.comment .inputformField{min-height:174px}
+.inputformField:focus{box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);}
+
+.sendbtn .btn{width: 100%; font-size: 22px; padding: 19px 20px;}
+/*---------- More question ----------*/
+
+
+/*---------- Find out ----------*/
+.findoutSec {padding: 182px 0; background: url(../img/find_out_bg.jpg) no-repeat; background-position: top center; background-size: cover;
+margin-bottom: 40px;}
+.findoutInner {text-align: center;}
+.findoutInner .sec-head{margin-bottom:20px;}
+.findoutInner .sec-head .sec-title{margin-bottom:0; font-weight: 700; font-size: 56px;}
+.findDesc {font-size:30px; color: #0E171F;}
+/*---------- Find out ----------*/
+
+
+/*---------- Testimonial ----------*/
+.testimonialSec {padding: 130px 130px;padding-right: 170px; position: relative;}
+.testimonialSec .sec-head {margin-bottom: 48px;}
+.testimonialSec .sec-head .sec-title {margin:0;}
+.testimonailCon {max-width: 73%;}
+.testimonailCon .btn{min-width: 253px;}
+
+.company_logo {margin: 0 -38px; font-size: 0; margin-top: 72px;}
+.company_logo li {padding: 0 38px; margin-bottom: 38px; width: 33.3%; display: inline-block; vertical-align: middle;}
+
+.testimonialSec:before{content: ''; position: absolute; right:-120px; z-index: -1; top:40px; width: 590px; height:590px; background: url(../img/blog-bg.svg) no-repeat; background-size: 100%;}
+
+.watchVideo {display: block; position: relative;width: 100%;padding-bottom: 82%;}
+.watchVideo img{position: absolute;width: 100%;height: 100%;max-width: 100%;max-height: 100%;top: 0;bottom: 0;left: 0;right: 0;object-fit: cover;object-position: center;
+}
+
+.watchVideo .videoIcon{width: 100px; height: 100px; outline:5px solid rgba(255, 255, 255, 0.5); left: 50%; top: 50%; transform: translate(-50%, -50%); position:absolute; background: #ffffff; border-radius: 50%; text-align: center; margin: auto; 
+display: inline-block; z-index: 2; padding: 20px; }
+.watchVideo .videoIcon:after {content: ''; left: 50%; top: 50%; margin-left: 7px; transform: translate(-50%,-50%); position: absolute; width: 40px; height: 40px; background: url(../img/svg/play.svg) no-repeat;}
+.watchVideo .videoIcon:before {content: ""; position: absolute; left: -5px; top: -5px; right: -5px; bottom: -5px; background-color: #ffffff; opacity: 0.1; border-radius: 50%; z-index: -1;animation: callBlink 3s infinite ease-in-out;}
+.watchVideo .videoIcon .icon{background: #ED9424;border-radius: 50%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;
+line-height: 4;text-align: center;}
+@keyframes callBlink {
+    from {
+        transform: scale(0.5);
+        opacity: 0.9
+    }
+    to {
+        transform: scale(1.6);
+        opacity: 0
+    }
+}
+
+.testimonial_Box {position: relative; max-width: 96%;}
+/*.testimonial_Box .slick-dots {position: absolute; bottom:40px; width: 100%; text-align: center;}*/
+
+.tstsliderDots {position: absolute; max-width: 33%; padding:18px 18px; bottom:24px; border-radius: 100px; left: 0; right: 0; margin: auto; background: #000000;}
+.tstsliderDots .slick-dots{margin:0;}
+.tstsliderDots .slick-dots li {vertical-align: middle;}
+.tstsliderDots .slick-dots li button {display: block;}
+
+/*---------- Testimonial ----------*/
+
+
+
+
+/*-------------------------------------------------------- Responsive css --------------------------------------------------------*/
+
+@media only screen and (max-width: 1599px) {
+
+/*---------- News ----------*/
+.newsSec:before {width: 370px; height: 370px; left: -230px;}
+/*---------- News ----------*/
+
+/*---------- Testimonial ----------*/
+
+.testimonialSec {padding: 120px 80px;}
+.company_logo{margin-left: -15px;margin-right: -15px;}
+.company_logo li{padding: 0 15px;}
+
+
+/*---------- Testimonial ----------*/
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1366px) {
+
+/*---------- News ----------*/
+.newsSec:before {width: 280px; height: 280px; left: -170px; top: 150px;}
+/*---------- News ----------*/
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+
+
+}
+
+
+/* common css for below screen 1199 */
+@media only screen and (max-width: 1199px) {
+
+/*---------- Testimonial ----------*/
+.testimonialSec{padding: 50px 10px;}
+.testimonialSec:before{width: 450px;height: 450px;top:20px;}
+.testimonialSec .sec-head{margin-bottom: 30px;}
+.testimonailCon .btn{min-width: 220px;}
+.company_logo{margin-top:30px;}
+.company_logo li{margin-bottom: 20px;}
+.testimonailCon{max-width: 90%;}
+.watchVideo .videoIcon{width: 80px;height: 80px;}
+.watchVideo .videoIcon:after{width: 30px;height: 30px;margin-left: 5px;}
+.tstsliderDots{padding: 8px 12px;}
+.slick-dots li button{width: 8px;height: 8px;}
+/*---------- Testimonial ----------*/
+
+/*---------- News ----------*/
+.newsSec{padding-bottom: 40px;}
+.newsSec .newsCard .newsCardImg {padding-bottom: 200px;}
+/*---------- News ----------*/
+
+/*---------- Find out ----------*/
+.findoutSec {padding: 80px 0;}
+/*---------- Find out ----------*/
+
+/*---------- More question ----------*/
+.more_question_con {max-width: 450px;}
+.call_sl span {font-size: 42px;}
+/*---------- More question ----------*/
+
+/*---------- footer ----------*/
+.footerLeft {padding: 54px 0;}
+.our_certi {display: block;}
+.our_certi .footTitle {margin-bottom: 20px;}
+.our_certi img {margin-left: 35px;}
+
+.certiImg img:first-child {margin-left: 0;}
+
+
+.footContact:nth-child(3) {margin-left:0;}
+
+/*---------- footer ----------*/
+
+}
+
+/* common css for below screen 991 */
+@media only screen and (max-width: 991px) {
+
+/*---------- Testimonial ----------*/
+.testimonailCon{max-width: 95%;}
+.watchVideo .videoIcon{width: 65px;height: 65px;}
+.watchVideo .videoIcon:after{width: 25px;height: 25px;}
+.testimonial_Box{max-width: 100%;}
+/*---------- Testimonial ----------*/
+
+/*---------- News ----------*/
+.newsSec:before{display: none;}
+.newsInner {padding:0;}
+.newsSec .sec-head .sec-title {font-size: 42px;}
+/*---------- News ----------*/
+
+/*---------- More question ----------*/
+.moreSec {padding: 60px 0;}
+.more_question_con {max-width: 100%; margin-bottom: 30px;}
+.more_head .sec-head .sec-title {font-size: 42px;}
+.call_sl span {font-size: 34px;}
+.call_icon, .whatsup_call_icon {width: 50px; height: 50px; font-size: 25px;}
+.sendbtn .btn {font-size: 18px;}
+.inputformField {font-size: 16px;}
+/*---------- More question ----------*/
+
+/*---------- Find out ----------*/
+.findoutInner .sec-head .sec-title {font-size:42px;}
+.findDesc {font-size: 24px;}
+/*---------- Find out ----------*/
+
+/*---------- footer ----------*/
+.foot_contactDetails {padding: 36px 0px 30px 28px;}
+.follow_sl {margin-top: 20px;}
+/*---------- footer ----------*/
+
+}
+
+
+/* common css for below screen 767 */
+@media only screen and (max-width: 767px) {
+
+/*---------- Testimonial ----------*/
+.testimonialSec{padding: 30px 10px;}
+.testimonialSec:before{display: none;}
+.testimonial_Box{margin-bottom: 20px;}
+.sec-title{font-size: 30px;}
+.testimonailCon{max-width: 100%;}
+.company_logo li{margin-bottom: 15px;}
+.testimonialSec{padding-bottom: 10px;}
+/*---------- Testimonial ----------*/
+
+/*---------- News ----------*/
+.newsSec .sec-head {margin-bottom: 30px;}
+.newsSec .sec-head .sec-title {font-size: 34px;}
+.newsSec .sec-head .morelink {top:10px;}
+.newsSec .newsCard {margin: 0 6px 10px;}
+.newsSec .newsCard .newsTitle {padding: 15px 10px 10px 0;}
+/*---------- News ----------*/
+
+/*---------- More question ----------*/
+.moreSec {padding: 40px 0;}
+.call_sl, .whatsup_call_sl {display: none;}
+.more_head .sec-head .sec-title {font-size: 34px;}
+.conformrow .conformcol .formcol {margin-bottom: 15px;}
+.inputformField {height: 50px;}
+.sendbtn .btn {font-size: 16px; padding: 16px 20px;}
+/*---------- More question ----------*/
+
+/*---------- Find out ----------*/
+.findoutSec {padding: 40px 0;}
+.findoutInner .sec-head .sec-title {font-size: 34px;}
+.findDesc {font-size: 22px;}
+/*---------- Find out ----------*/
+
+/*---------- footer ----------*/
+.footTitle {margin-bottom: 20px;}
+.footerLeft {display: none;}
+.footerRight {width: 100%; padding-top: 40px;}
+.our_certi {padding: 0px 0px 30px;}
+.foot_contactDetails {padding: 30px 0px 10px 0px;}
+.footContact br{display: none;}
+.footerMain .footBox.follow_mbl{display: block; margin-bottom: 30px;}
+/*---------- footer ----------*/
+
+}
+
+
+@media only screen and (max-width: 568px) {
+
+
+}
+
+
+/* common css for below screen 479 */
+@media only screen and (max-width: 479px) {
+
+/*---------- footer ----------*/
+.footContact {margin-left:0;}
+.our_certi img {max-width: 150px; margin-left: 20px;}
+.copyrightsec .powerdBy {float: none;}
+/*---------- footer ----------*/
+
+.more_head .sec-head .sec-title, .findoutInner .sec-head .sec-title, .newsSec .sec-head .sec-title {font-size: 28px;}
+.findDesc, .moreDesc {font-size: 18px;}
+.newsSec .sec-head {margin-bottom: 20px;}
+.newsSec .sec-head .morelink {top: 35px; position: static; width: 100%; text-align: center; margin-top: 20px;}
+.newsSec .newsCard {margin:0;}
+
+.newsSec .sec-head {display: block;}
+.newsSec .sec-head .sec-title {text-align: center; width: 100%;}
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+}
+
+
+@media only screen and (max-width: 350px) {
+
+}

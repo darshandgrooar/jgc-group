@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,11 +10,12 @@
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
   	<link rel="stylesheet" type="text/css" href="css/animate.compat.css">
   	<link rel="stylesheet" type="text/css" href="css/slick.css">
-  	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/fancybox.css" />
   	<link rel="stylesheet" type="text/css" href="css/theme-icons.css">
   	<link rel="stylesheet" type="text/css" href="css/all.min.css">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+  	<link rel="stylesheet" type="text/css" href="css/new-style.css">
 
 </head>
 <body>
@@ -22,10 +23,9 @@
 	<div class="wrapper">
 		<!-- header -->
 		<header class="header-main">
-			<div class="head-top">
 				<div class="container">
 					<div class="row align-items-center justify-content-between">
-						<div class="col-3 col-md-5 header-col header-col-one">
+						<div class="col-0 col-md-5 header-col-one">
 							<div class="sidebar-overlay"></div>
 							<div class="navigation-bar">
 								<nav class="menu-main">
@@ -34,18 +34,21 @@
 										<li><a href="#">Commercial</a></li>
 										<li><a href="#">Facilities</a></li>
 										<li><a href="#">Development</a></li>
+										<li><a href="#">About Us</a></li>
+										<li><a href="#">News</a></li>
+										<li><a href="#">Contact Us</a></li>
 									</ul>
 								</nav>
 							</div>
 						</div>
-						<div class="col-md-2 col-auto header-col header-col-two">
+						<div class="col-auto col-md-2 col-auto header-col-two">
 							<a href="#" class="site-logo" title="John Gray Constructions">
 								<img src="img/logo.svg" alt="John Gray Constructions" />
 							</a>
 						</div>
-						<div class="col-md-5 text-end col-3 header-col header-col-three">
-							<div class="menuIcon"> <span></span></div>
-							<div class="navigation-bar d-md-inline-block d-sm-none d-none">
+						<div class="col-4 col-md-5 text-end col-3 header-col-three">
+							
+							<div class="navigation-bar d-xl-inline-block d-lg-none d-none">
 								<nav class="menu-main">
 									<ul>
 										<li><a href="#">About Us</a></li>
@@ -54,13 +57,11 @@
 									</ul>
 								</nav>
 							</div>
-							<div class="head-call-btn">
-								<a href="tel:07 4728 5370"><span><i class="icon icon-phone"></i> 07 4728 5370</span></a>
-							</div>
+							<a class="head-call-btn" href="tel:07 4728 5370"><span><i class="icon icon-phone"></i> 07 4728 5370</span></a>
+							<div class="menu-icon"><span></span></div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</header>
 		<!-- header -->
 		<!-- banner section -->
@@ -73,36 +74,375 @@
 						</video>
 					</div>
 				</div>
-				<div class="banner-video-item">
-					<div class="banner-video">
-						<video poster="img/home-banner.jpg" autoplay loop playsinline muted>
-							<source src="img/home-banner-video.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-				<div class="banner-video-item">
-					<div class="banner-video">
-						<video poster="img/home-banner.jpg" autoplay loop playsinline muted>
-							<source src="img/home-banner-video.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-				<div class="banner-video-item">
-					<div class="banner-video">
-						<video poster="img/home-banner.jpg" autoplay loop playsinline muted>
-							<source src="img/home-banner-video.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
 			</div>
 		</section>
 		<!-- banner section -->
+		<!-- JGC Lifestyle section -->
+		<section class="jgc-lifestyle-sec">
+			<div class="sec-head text-center mb-0">
+				<h4 class="sec-title sec-large-title wow animate__fadeInUp mb-0">Explore the <span>JGC Lifestyle</span></h4>
+			</div>
+			<div class="jgc-lifestyle-row">
+				<div class="jgc-lifestyle-col wow animate__fadeInUp" data-wow-delay="0.2s">
+					<a href="#" class="jgc-lifestyle-box">
+						<div class="jgc-lifestyle-img">
+							<img src="img/jgc-residential-img.jpg" alt="" />
+						</div>
+						<div class="jgc-lifestyle-logo">
+							<img src="img/jgc-residential-logo.svg" alt="" />
+						</div>
+					</a>
+				</div>
+				<div class="jgc-lifestyle-col wow animate__fadeInUp" data-wow-delay="0.3s">
+					<a href="#" class="jgc-lifestyle-box">
+						<div class="jgc-lifestyle-img">
+							<img src="img/jgc-commercial-img.jpg" alt="" />
+						</div>
+						<div class="jgc-lifestyle-logo">
+							<img src="img/jgc-commercial-logo.svg" alt="" />
+						</div>
+					</a>
+				</div>
+				<div class="jgc-lifestyle-col wow animate__fadeInUp" data-wow-delay="0.4s">
+					<a href="#" class="jgc-lifestyle-box">
+						<div class="jgc-lifestyle-img">
+							<img src="img/jgc-facilities-img.jpg" alt="" />
+						</div>
+						<div class="jgc-lifestyle-logo">
+							<img src="img/jgc-facilities-logo.svg" alt="" />
+						</div>
+					</a>
+				</div>
+				<div class="jgc-lifestyle-col wow animate__fadeInUp" data-wow-delay="0.5s">
+					<a href="#" class="jgc-lifestyle-box">
+						<div class="jgc-lifestyle-img">
+							<img src="img/jgc-development-img.jpg" alt="" />
+						</div>
+						<div class="jgc-lifestyle-logo">
+							<img src="img/jgc-development-logo.svg" alt="" />
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- JGC Lifestyle section -->
+
+		<!-- about jgc section -->
+
+		<section class="about-jgc-sec">
+			<div class="about-jgc-row flex-row-reverse">
+				<div class="about-jgc-col">
+					<div class="about-jgc-img">
+						<img src="img/about-jgc-img.jpg" alt="" />
+					</div>
+				</div>
+				<div class="about-jgc-col">
+					<div class="about-jgc-text-main">
+					<div class="about-jgc-text text-white">
+						<div class="sec-head">
+							<h4 class="sec-title sec-large-title wow animate__fadeInLeft" data-wow-delay="0.2s">About JGC</h4>
+							<div class="wow animate__fadeInLeft" data-wow-delay="0.3s">
+								<p><b>John Gray Constructions</b> (JGC) has been a constant and integral part of the construction industry within Townsville and surrounding North Queensland region for over a decade and has grown into a leader within the industry. JGC are focussed on promoting and growing local construction companies and ensuring the organic capacity of locally owned and operated companies can effectively compete with larger non-local companies.</p>
+							</div>
+						</div>
+						<a href="#" class="btn btn-white-outline wow animate__fadeInLeft" data-wow-delay="0.4s">Read More</a>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<!-- about jgc section -->
+
+		<!-- Testimonial start -->	
+
+<section class="commonSec testimonialSec">
+    <div class="container-fluid">
+    	<div class="row flex-row-reverse align-items-center">
+    		<div class="col-md-6">				
+    			<div class="testimonial_Box wow animate__fadeInRight" data-wow-delay="0.2s">
+	    			<div class="testimonial_slider">
+	    				<div class="item">
+	    					<a href="https://vimeo.com/702727044" class="testiBox watchVideo" data-fancybox>
+	    						<div class="videoIcon"></div>
+	    						<img src="img/client_img1.jpg" alt="">
+	    					</a>
+	    				</div>
+	    				<div class="item">
+	    					<a href="https://vimeo.com/720931482" class="testiBox watchVideo" data-fancybox>
+	    						<div class="videoIcon"></div>
+	    						<img src="img/client_img2.jpg" alt="">
+	    					</a>
+	    				</div>
+	    			</div>
+	    			<div class="tstsliderDots"></div>
+    			</div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="testimonailCon">
+    				<div class="sec-head wow fadeInUp">
+    					<h2 class="sec-title mb-0">Don't take our word for it. Take theirs...</h2>
+    				</div>
+    				<a href="#" class="btn wow fadeInUp" data-wow-delay="0.2s">Meet our customers</a>
+    				<ul class="company_logo">
+    					<li class="wow animate__fadeInUp" data-wow-delay="0.2s">
+    						<div class="company_tumb">
+    							<img src="img/company-logo1.jpg" alt="">
+    						</div>
+    					</li>
+    					<li class="wow animate__fadeInUp" data-wow-delay="0.3s">
+    						<div class="company_tumb">
+    							<img src="img/company-logo2.jpg" alt="">
+    						</div>
+    					</li>
+    					<li class="wow animate__fadeInUp" data-wow-delay="0.4s">
+    						<div class="company_tumb">
+    							<img src="img/company-logo3.jpg" alt="">
+    						</div>
+    					</li>
+    					<li class="wow animate__fadeInUp" data-wow-delay="0.5s">
+    						<div class="company_tumb">
+    							<img src="img/company-logo4.jpg" alt="">
+    						</div>
+    					</li>
+    					<li class="wow animate__fadeInUp" data-wow-delay="0.6s">
+    						<div class="company_tumb">
+    							<img src="img/company-logo5.jpg" alt="">
+    						</div>
+    					</li>
+    					<li class="wow animate__fadeInUp" data-wow-delay="0.7s">
+    						<div class="company_tumb">
+    							<img src="img/company-logo6.jpg" alt="">
+    						</div>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    		
+    	</div>
+    </div>
+</section>
+
+<!-- Testimonial end -->	
+
+	<!-- Find out start -->
+			<section class="commonSec findoutSec">
+      			<div class="container">
+      				<div class="findoutInner">
+      					<div class="sec-head wow fadeInUp">
+        					<h2 class="sec-title">Find out today</h2>
+        				</div>
+        				<p class="findDesc wow fadeInUp" data-wow-delay="0.1s">How We Can Help Bring Your Next Building Project To Life</p>
+        				<a href="#" class="btn wow fadeInUp" data-wow-delay="0.2s">Contact us</a>
+      				</div>
+      			</div>
+      		</section>
+	<!-- Find out end -->
+
+	<!-- More question start -->
+		<section class="moreSec commonSec">
+      		<div class="container">
+      			<div class="row align-items-center">
+      				<div class="col-md-12 col-lg-6">
+      					<div class="more_question_con">
+      						<div class="more_head">
+      							<div class="sec-head  wow fadeInUp">
+	            					<h2 class="sec-title mb-0">More questions?</h2>
+	            				</div>
+	            				<p class="moreDesc wow fadeInUp" data-wow-delay="0.1s">Fill the form and we will contact you</p>
+      						</div>
+      						<a class="call_sl wow fadeInUp" data-wow-delay="0.2s" href="tel:07 4728 5370">
+      							<div class="call_icon">
+      								<i class="icon icon-phone"></i>
+      							</div>
+      							<span>07 4728 5370</span>
+      						</a>
+      						<a class="whatsup_call_sl wow fadeInUp" data-wow-delay="0.3s" href="https://wa.me/0747285370?text=Hello">
+      							<div class="whatsup_call_icon">
+      								<i class="icon icon-whatsapp"></i>
+      							</div>
+      							<span>WhatsApp chat</span>
+      						</a>
+      					</div>
+      				</div>
+      				<div class="col-md-12 col-lg-6">
+      					<div class="form_sl  wow fadeInUp" data-wow-delay="0.2s">
+      						<div class="row conformrow">
+					              <div class="col-sm-6 col-12 conformcol">
+					                <div class="formcol">
+					                  <input type="text" class="inputformField" name="Name" value="" placeholder="Name">
+					                </div>
+					              </div>
+					              <div class="col-sm-6 col-12 conformcol">
+					                <div class="formcol">
+					                  <input type="email" class="inputformField" name="Email Address" value="" placeholder="Email Address">
+					                </div>
+					              </div>
+					              <div class="col-sm-6 col-12 conformcol">
+					                <div class="formcol">
+					                  <input type="text" class="inputformField" name="Phone Number" value="" placeholder="Phone Number">
+					                </div>
+					              </div>
+					              <div class="col-sm-6 col-12 conformcol">
+					                <div class="formcol">
+					                  <input type="text" class="inputformField" name="Message" value="" placeholder="Message">
+					                </div>
+					              </div>
+					              <div class="col-sm-12 col-12 conformcol">
+					                <div class="sendbtn">
+					                	<button type="submit" class="btn">Submit</button>
+					              	</div>
+					              </div>
+					            </div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+		</section>
+	<!-- More question end -->
+
+
+	<!-- Blog Start -->
+	    <section class="newsSec commonSec">
+	      <div class="container">
+	      	<div class="newsInner">
+		        <div class="row">
+		          <div class="sec-head">
+		            <h2 class="sec-title mb-0 wow fadeInUp">Our Latest Blog Articles</h2>
+		            <a href="#" class="morelink wow fadeInUp" data-wow-delay="0.2s">View All <i class="icon icon-right-arrow"></i></a>
+		          </div>
+		        </div>
+		        <div class="row">
+		          <div class="newsSlider">
+		            <div class="items wow fadeInUp" data-wow-delay="0.1s">
+		              <div class="newsCard">
+		                <a href="#">
+		                  <div class="newsCardImg">
+		                    <img src="img/news-img-1.jpg" alt="news-img-1">
+		                  </div>
+		                </a>
+		                <div class="newsCardContent">
+		                  <div class="newsTitle"> 
+		                  	<a href="#">8 Ways the Construction Industry Uses Technology to Be More Sustainable</a>
+		                  </div>
+		                  <a href="#" class="morelink">Read More <i class="icon icon-right-arrow"></i></a>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="items wow fadeInUp" data-wow-delay="0.2s">
+		              <div class="newsCard">
+		                <a href="#">
+		                  <div class="newsCardImg">
+		                    <img src="img/news-img-2.jpg" alt="news-img-2">
+		                  </div>
+		                </a>
+		                <div class="newsCardContent">
+		                  <div class="newsTitle"> 
+		                  	<a href="#">Want to Reduce Waste and Inefficiency During Construction? Start with Design.</a>
+		                  </div>
+		                  <a href="#" class="morelink">Read More <i class="icon icon-right-arrow"></i></a>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+
+	      </div>
+	    </section>
+	<!-- Blog End -->
+
+	<!-- footer start -->
+		<footer class="footerMain">
+    		<div class="container">
+    			<div class="footerInner">
+    			<div class="footerLeft">
+    				<div class="row">
+    					<div class="col-md-6 col-lg-4 wow fadeInUp">
+    						<div class="footBox mb-hide">
+				              <h3 class="footTitle">Quick Links</h3>
+				              <div class="footCon">
+				                <ul>
+				                  <li class="active"><a href="#" title="Home">Home</a></li>
+				                  <li><a href="#" title="About Us">About Us</a></li>
+				                  <li><a href="#" title="News">News</a></li>
+				                  <li><a href="#" title="News">Contact Us</a></li>
+				                </ul>
+				              </div>
+				            </div>
+    					</div>
+    					<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    						<div class="footBox mb-hide">
+				              <h3 class="footTitle">Services</h3>
+				              <div class="footCon">
+				                <ul>
+				                  <li><a href="#" title="JGC Residential">JGC Residential</a></li>
+				                  <li><a href="#" title="JGC Commercial">JGC Commercial</a></li>
+				                  <li><a href="#" title="JGC Facilities">JGC Facilities</a></li>
+				                  <li><a href="#" title="JGC Development">JGC Development</a></li>
+				                </ul>
+				              </div>
+				            </div>
+    					</div>
+    					<div class="col-md-12 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+    						<div class="footBox follow_sl">
+				              <h3 class="footTitle">Follow Us</h3>
+				            	<div class="socialMeadia">
+					                <a class="fb" target="_blank" href="https://www.facebook.com/Johngrayconstructions"><i class="icon icon-facebook"></i></a>
+					                <a class="instagram" target="_blank" href="https://www.instagram.com/johngrayconstructions/"><i class="icon icon-instagram"></i></a>
+				            	</div>  
+				            </div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="footerRight">
+    				<div class="our_certi">
+    					<h3 class="footTitle wow fadeInUp" data-wow-delay="0.1s">Our Certifications</h3>
+    					<div class="certiImg wow fadeInUp" data-wow-delay="0.2s">
+    						<img src="img/h-c-2021-regional-winner-logo.png" alt="" />
+    						<img src="img/workcover-qld.png" alt="" />
+    					</div>
+    				</div>
+    				<div class="foot_contactDetails wow fadeInUp" data-wow-delay="0.3s">
+    					<h3 class="footTitle">Contact Details</h3>
+    					<div class="footCon">
+			                <p class="footContact"><i class="icon icon-location"></i>265 Ingham Rd, Garbut <br> Townsville QLD 4812</p>
+			                <p class="footContact"><i class="icon icon-phone"></i><a class="call" href="tel:07 4728 5370">07 4728 5370</a></p>
+			                <p class="footContact"><i class="icon icon-email"></i><a href="mailto:admin@johngrayconstructions.com.au">admin@johngrayconstructions.com.au</a></p>
+			            </div>
+    				</div>
+    				<div class="footBox follow_sl follow_mbl wow fadeInUp" data-wow-delay="0.3s">
+		              <h3 class="footTitle">Follow Us</h3>
+		            	<div class="socialMeadia">
+			                <a class="fb" target="_blank" href="https://www.facebook.com/Johngrayconstructions"><i class="icon icon-facebook"></i></a>
+			                <a class="instagram" target="_blank" href="https://www.instagram.com/johngrayconstructions/"><i class="icon icon-instagram"></i></a>
+		            	</div>  
+		            </div>
+    			</div>    			
+    			</div>
+    		</div>    		
+    		<div class="copyrightsec wow fadeInUp" data-wow-delay="0.3s">
+		      <div class="container">
+		        <div class="row align-items-center">
+		          <div class="col-lg-12 col-md-12 col-12">
+		            <p class="copyright">&copy; 2022 - <a href="#" title="John Gray Constructions">John Gray Constructions.</a>
+		             All Rights Reserved.</p>
+		            <p class="powerdBy">Developed By: <a href="https://societybydesign.com.au/" target="_blank"><img src="img/societybydesign-logo.svg"></a>
+		            </p>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</footer>
+	<!-- footer end -->
+
 	</div>
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="js/slick.js"></script>
-  <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="js/fancybox.umd.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
   <script>new WOW().init();</script>

@@ -41,7 +41,21 @@
 
 
 @media only screen and (max-width: 1366px) {
+/*---header---*/
+.header-main{padding:18px 0;}
+.menu-main li{padding:0 10px;}
+.head-call-btn{margin-left: 10px;}
+.head-call-btn span{font-size: 18px;}
+.site-logo img{width: 90px;}
+.has-sticky .site-logo{height: 41px;}
+.jgc-lifestyle-logo{padding: 20px;bottom: -42px;}
+.jgc-lifestyle-box{margin-bottom: 42px;}
+.about-jgc-text{padding-left: 50px;max-width: 75%;}
+/*---header---*/
 
+/*---home---*/
+.sec-title{font-size: 40px;}
+/*---home---*/
 
 }
 
@@ -64,12 +78,67 @@
 
 @media only screen and (max-width: 1199px) {
 
-html{font-size: 8px;}
 p{font-size: 16px;}
-.btn{font-size: 14px;padding: 26px 20px;min-width: 160px;}
+.btn{font-size: 14px;min-width: 160px;}
 
 .commonSec{padding-top: 50px;padding-bottom: 50px;}
 
+/*---header---*/
+.menu-main li{padding: 0 8px;}
+.menu-icon { display: inline-block; vertical-align: middle;}
+
+.close-menu { position: absolute; right: 25px; top: 25px; width: 25px; height: 25px; padding: 4px;}
+.close-menu:before { content: ''; width: 100%; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #fff; -webkit-transform: rotate(45deg); transform: rotate(45deg); margin: auto; bottom: 0;}
+.close-menu:after { content: ''; width: 100%; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #fff; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin: auto; bottom: 0;}
+.navigation-bar { position: fixed; width: 100%; min-height: 100vh; top: 0; bottom: 0; left: 100%; background: var(--white); transition: all .6s ease-in-out; margin: 0; z-index: 9999; overflow-y: auto;
+    height: 100vh;}
+.navigation-bar.slide-menu{left: 0;}
+.header-main{width: 100%;margin: 0;display: block;}
+
+.menu-main{padding-top: 100px; display: flex;flex-wrap: wrap;align-items: center;height: 100%;width: 100%;margin: auto;text-align: center;}
+.menu-main ul{padding-top: 0px; display: block;justify-content:inherit;align-items:inherit;width: 100%;}
+.menu-main li{width: 100%; display: block; padding:0; margin:0; position: relative;}
+.menu-main li a{display: inline-block; width: auto;text-align: left;}
+.header-main .menu-main ul li:nth-child(1n + 5){display: block;}
+.menu-main li{margin-bottom: 35px;font-size: 16px;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;left: 50px;opacity: 0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);}
+.slide-menu .menu-main li{opacity: 1;-ms-filter: none;filter: none;left: 0;}
+
+.menu-main li:nth-of-type(1){-webkit-transition-delay: .66s;-moz-transition-delay: .66s;-o-transition-delay: .66s;-ms-transition-delay: .66s;transition-delay: .66s;}
+.menu-main li:nth-of-type(2){-webkit-transition-delay: .64s;-moz-transition-delay: .64s;-o-transition-delay: .64s;-ms-transition-delay: .64s;transition-delay: .64s;}
+.menu-main li:nth-of-type(3){-webkit-transition-delay: .62s;-moz-transition-delay: .62s;-o-transition-delay: .62s;-ms-transition-delay: .62s;transition-delay: .62s;}
+.menu-main li:nth-of-type(4){-webkit-transition-delay: .60s;-moz-transition-delay: .60s;-o-transition-delay: .60s;-ms-transition-delay: .60s;transition-delay: .60s;}
+.menu-main li:nth-of-type(5){-webkit-transition-delay: .58s;-moz-transition-delay: .58s;-o-transition-delay: .58s;-ms-transition-delay: .58s;transition-delay: .58s;}
+.menu-main li:nth-of-type(6){-webkit-transition-delay: .56s;-moz-transition-delay: .56s;-o-transition-delay: .56s;-ms-transition-delay: .56s;transition-delay: .56s;}
+.menu-main li:nth-of-type(7){-webkit-transition-delay: .54s;-moz-transition-delay: .54s;-o-transition-delay: .54s;-ms-transition-delay: .54s;transition-delay: .54s;}
+.menu-main li:nth-of-type(8){-webkit-transition-delay: .52s;-moz-transition-delay: .52s;-o-transition-delay: .52s;-ms-transition-delay: .52s;transition-delay: .52s;}
+
+.slide-menu .menu-main li:nth-of-type(1){-webkit-transition-delay: .52s;-moz-transition-delay: .52s;-o-transition-delay: .52s;-ms-transition-delay: .52s;transition-delay: .52s;}
+.slide-menu .menu-main li:nth-of-type(2){-webkit-transition-delay: .54s;-moz-transition-delay: .54s;-o-transition-delay: .54s;-ms-transition-delay: .54s;transition-delay: .54s;}
+.slide-menu .menu-main li:nth-of-type(3){-webkit-transition-delay: .56s;-moz-transition-delay: .56s;-o-transition-delay: .56s;-ms-transition-delay: .56s;transition-delay: .56s;}
+.slide-menu .menu-main li:nth-of-type(4){-webkit-transition-delay: .58s;-moz-transition-delay: .58s;-o-transition-delay: .58s;-ms-transition-delay: .58s;transition-delay: .58s;}
+.slide-menu .menu-main li:nth-of-type(5){-webkit-transition-delay: .60s;-moz-transition-delay: .60s;-o-transition-delay: .60s;-ms-transition-delay: .60s;transition-delay: .60s;}
+.slide-menu .menu-main li:nth-of-type(6){-webkit-transition-delay: .62s;-moz-transition-delay: .62s;-o-transition-delay: .62s;-ms-transition-delay: .62s;transition-delay: .62s;}
+.slide-menu .menu-main li:nth-of-type(7){-webkit-transition-delay: .64s;-moz-transition-delay: .64s;-o-transition-delay: .64s;-ms-transition-delay: .64s;transition-delay: .64s;}
+.slide-menu .menu-main li:nth-of-type(8){-webkit-transition-delay: .66s;-moz-transition-delay: .66s;-o-transition-delay: .66s;-ms-transition-delay: .66s;transition-delay: .66s;}
+
+/*---header---*/
+
+/*---home---*/
+.sec-head{margin-bottom: 30px;}
+.jgc-lifestyle-sec .sec-head{padding: 50px 15px;}
+.sec-large-title.sec-title{font-size: 40px;margin-bottom: 30px;}
+.jgc-lifestyle-row{margin: 0 -7px;}
+.jgc-lifestyle-col{padding: 0 7px;}
+.jgc-lifestyle-logo{padding: 15px;}
+.jgc-lifestyle-box{margin-bottom: 33px;}
+.jgc-lifestyle-logo{bottom: -33px;}
+.text-white p{font-size: 16px;}
+.about-jgc-text{max-width: 90%;}
+.banner-video{padding-bottom: calc(100vh - 142px);}
+
+/*---home---*/
 
 /*---cms-Con---*/
 .cmsCon h1{font-size: 40px;margin-bottom: 20px;}
@@ -103,6 +172,13 @@ p{font-size: 16px;}
 
 @media only screen and (max-width: 991px) {
 
+/*---home---*/
+.banner-video{padding-bottom: calc(100vh - 450px);}
+.jgc-lifestyle-logo{padding: 12px 10px;}
+.jgc-lifestyle-box{margin-bottom: 23px;}
+.jgc-lifestyle-logo{bottom: -23px;}
+.about-jgc-text{max-width: 100%;padding:30px 20px;}
+/*---home---*/
 
 }
 
@@ -113,12 +189,30 @@ p{font-size: 16px;}
 
 
 @media only screen and (max-width: 767px) {
-
-html{font-size: 6px;}	
+	
 p{font-size: 14px;margin-bottom: 15px;}
 .container{max-width: 100%;}
-.btn{font-size: 14px;padding: 21px 15px; font-weight: 700;min-width: 150px;}
+.btn{font-size: 14px;min-width: 150px;}
 .commonSec{padding-top: 30px;padding-bottom: 30px;}
+
+/*---header---*/
+.site-logo img{width: 80px;}
+.has-sticky .site-logo{height: 37px;}
+.menu-main li{margin-bottom: 30px;}
+.jgc-lifestyle-sec .sec-head{padding: 30px 15px;}
+.sec-large-title.sec-title{font-size: 32px;}
+/*---header---*/
+
+/*---home---*/
+.header-main{padding: 12px 0;}
+.head-call-btn{border-radius: 50%;width: 40px;height: 40px;padding: 0;text-align: center;margin-left: 0;}
+.head-call-btn span{font-size: 0;padding-left: 0;line-height: 45px;}
+.head-call-btn span .icon{font-size: 20px;position: relative;top:inherit;left: inherit;}
+.menu-icon{margin-left: 10px;}
+.banner-video{padding-bottom: calc(100vh - 93px);}
+.jgc-lifestyle-row{padding: 20px 15px;padding-bottom: 30px;}
+.sec-large-title.sec-title{margin-bottom: 20px;}
+/*---home---*/
 
 /*---cmsCon---*/
 .cmsCon p{font-size: 14px;margin-bottom: 15px;}
@@ -162,6 +256,22 @@ p{font-size: 14px;margin-bottom: 15px;}
 
 .commonSec{padding-top: 30px;padding-bottom: 30px;}
 
+/*---home---*/
+.banner-video{padding-bottom: calc(100vh - 89px);}
+.sec-large-title.sec-title{font-size: 28px;}
+.jgc-lifestyle-row{padding: 25px 25px;}
+.jgc-lifestyle-col{width: 100%;margin-bottom: 20px;}
+.jgc-lifestyle-col:last-child{margin-bottom: 0;}
+.jgc-lifestyle-img{padding-bottom: 90%;}
+.jgc-lifestyle-img img{object-position: center;}
+.jgc-lifestyle-box:hover .jgc-lifestyle-img{padding-bottom: 90%;}
+.jgc-lifestyle-logo{bottom: 0;max-width: 100%;padding: 10px;}
+.jgc-lifestyle-logo img{max-width: 115px;}
+.jgc-lifestyle-box{margin-bottom: 0;}
+.about-jgc-col{width: 100%;}
+.about-jgc-col:first-child{display: none;}
+/*---home---*/
+
 }
 
 
@@ -185,6 +295,12 @@ p{font-size: 14px;margin-bottom: 15px;}
 
 
 @media only screen and (max-width: 350px) {
+
+/*---home---*/
+.banner-video{padding-bottom: calc(100vh - 85px);}
+.sec-large-title.sec-title{font-size: 24px;}
+/*---home---*/
+
 
 }
 

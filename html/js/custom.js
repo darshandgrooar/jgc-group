@@ -3,21 +3,26 @@
 
     /* Mobile menu */
 
-  $(".menuIcon").click(function () {
+  $(".menu-icon").click(function () {
     $(this).toggleClass("menu-close");
 
-    $(".navigationBar").toggleClass("slideMenu");
+    $(".navigation-bar").toggleClass("slide-menu");
 
-    $("body").addClass("bodyFixed");
+    $("body").addClass("body-fixed");
   });
 
-  $(".sidebar-overlay, .closeMenu").click(function () {
-    $(".menuIcon").removeClass("menu-close");
+  $(".sidebar-overlay, .close-menu").click(function () {
+    $(".menu-icon").removeClass("menu-close");
 
-    $(".navigationBar").removeClass("slideMenu");
+    $(".navigation-bar").removeClass("slide-menu");
 
-    $("body").removeClass("bodyFixed");
+    $("body").removeClass("body-fixed");
   });
+
+  $(document).on('click', '.navigation-bar, .close-menu', function () {
+     $('.navigation-bar').toggleClass('slide-menu');
+     $('body').removeClass('body-fixed');
+ });
 
   $(".menuMain li:has(ul)").prepend('<span class="arrow"></span>');
 
@@ -39,13 +44,13 @@
     if ($(this).scrollTop() > 400) {
       $(".scrollTop").fadeIn();
 
-      $(".headerMain").addClass("has_sticky");
-      $("body").addClass("sticky_header");
+      $(".header-main").addClass("has-sticky");
+      $("body").addClass("sticky-header");
     } else {
       $(".scrollTop").fadeOut();
 
-      $(".headerMain").removeClass("has_sticky");
-      $("body").removeClass("sticky_header");
+      $(".header-main").removeClass("has-sticky");
+      $("body").removeClass("sticky-header");
     }
   });
 
@@ -59,17 +64,50 @@
         }
     });
 
-    $('.banner-video-slide').slick({
+$('.newsSlider').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: false,
+  pauseOnHover: true,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  responsive: [
+    {
+
+      breakpoint: 991, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
         dots: true,
-        infinite: true,
-        speed: 500,
-        fade: true,
+      }
+    },
+    {
+      breakpoint: 569,
+      settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
-        arrows: false,
-    });
+        dots: true,
+      }
 
+    }
+  ]
+});
+
+
+$('.testimonial_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  fade: true,
+  appendDots:'.tstsliderDots',
+  arrows: false,
+  pauseOnHover: true,
+  autoplay: true,
+  autoplaySpeed: 2500,  
+});
 
 
   /* ------| A. Svg Rendering In Browser |--------- */
